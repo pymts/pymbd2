@@ -23,7 +23,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
    if message.content.startswith('ボス'):
-      await client.send_find(message.channel, './wb.png',message='見とけよ、見とけよ～')
+      await client.send_find(message.channel, './wb.png',content='見とけよ、見とけよ～')
 
    elif message.content.startswith('A'):
       await client.send_find(message.channel, './aボーナス.png')
