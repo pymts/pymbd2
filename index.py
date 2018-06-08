@@ -14,14 +14,14 @@ anga = os.environ['anga']
 barurona = os.environ['barurona']
 
 @client.event
- async def on_ready():
+async def on_ready():
   print('Logged in as')
   print(client.user.name)
   print(client.user.id)
   print('------')
   
 @client.event
- async def on_message(message):
+async def on_message(message):
    if message.content.startswith('ƒ{ƒX'):
       await client.send_find(message.channel, './wb.png',message='Œ©‚Æ‚¯‚æAŒ©‚Æ‚¯‚æ`')
 
