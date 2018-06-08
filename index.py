@@ -22,47 +22,47 @@ async def on_ready():
   
 @client.event
 async def on_message(message):
-   if message.content.startswith('ボス'):
-      await client.send_find(message.channel, './wb.png',content='見とけよ、見とけよ～')
+   if message.content == 'ボス':
+      await client.send_file(message.channel, './wb.png',content='見とけよ、見とけよ～')
 
-   elif message.content.startswith('A'):
-      await client.send_find(message.channel, './aボーナス.png')
+   elif message.content == ('A'):
+      await client.send_file(message.channel, './aボーナス.png')
 
-   elif message.content.startswith('D'):
+   elif message.content == ('D'):
       await client.send_find(message.channel, './dボーナス.png')
 
-   elif message.content.startswith('名声'):
-      await client.send_find(message.channel, 'a名声.png')
-      await client.send_find(message.channel, 'd名声.png')
+   elif message.content == ('名声'):
+      await client.send_file(message.channel, 'a名声.png')
+      await client.send_file(message.channel, 'd名声.png')
 
-   elif message.content.startswith('バレンシア'):
-      await client.send_find(message.channel, './バレンシア.png')
+   elif message.content == ('バレンシア'):
+      await client.send_file(message.channel, './バレンシア.png')
 
-   elif message.content.startswith('カーマス'):
-      await client.send_find(message.channel, './カーマス.png')
+   elif message.content == ('カーマス'):
+      await client.send_file(message.channel, './カーマス.png')
 
-   elif message.content.startswith('錬金'):
-      await client.send_find(message.channel, renkinn)
+   elif message.content == ('錬金'):
+      await client.send_file(message.channel, renkinn)
 
-   elif message.content.startswith('労働者'):
-      await client.send_find(message.channel, roudousya)
+   elif message.content == ('労働者'):
+      await client.send_file(message.channel, roudousya)
 
-   elif message.content.startswith('カプラス'):
-      await client.send_find(message.channel, kapurasu)
+   elif message.content == ('カプラス'):
+      await client.send_file(message.channel, kapurasu)
 
-   elif message.content.startswith('なでこ'):
-      await client.send_find(message.channel, '.vアド.png')
+   elif message.content == ('なでこ'):
+      await client.send_file(message.channel, '.vアド.png')
 
-   elif message.content.startswith('3章'):
+   elif message.content == ('3章'):
       await client.send_message(message.channel, karate)
 
-   elif message.content.startswith('絶望'):
+   elif message.content == ('絶望'):
      await client.send_message(message.channel, zetubou)
 
-   elif message.content.startswith('ギュルルルルル ダンダンッ↓タッタッタ ダダン↑×4 チャラララララ~→ラ~↑ラ~↓ラ~→'):
+   elif message.content == ('ギュルルルルル ダンダンッ↓タッタッタ ダダン↑×4 チャラララララ~→ラ~↑ラ~↓ラ~→'):
       await client.send_message(message.channel, anga)
 
-   elif message.content.startswith('ｷﾞｭｲｲ～ﾝ♪ ｽﾞﾀﾞﾀﾞﾀﾞ ｽﾞﾀﾞﾀﾞﾀﾞ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪'):
+   elif message.content == ('ｷﾞｭｲｲ～ﾝ♪ ｽﾞﾀﾞﾀﾞﾀﾞ ｽﾞﾀﾞﾀﾞﾀﾞ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪'):
       await client.send_message(message.channel, barurona)
       
 client.run(token)
