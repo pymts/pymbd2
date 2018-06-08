@@ -64,26 +64,5 @@ async def on_message(message):
 
    elif message.content.startswith('ｷﾞｭｲｲ～ﾝ♪ ｽﾞﾀﾞﾀﾞﾀﾞ ｽﾞﾀﾞﾀﾞﾀﾞ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪'):
       await client.send_message(message.channel, barurona)
-
-   elif message.content.startswith('野獣コマンド'):
-     await client.send_message(message.channel, '
-     ・砂漠
-     ボス
-     a
-     d
-     名声
-     バレンシア
-     カーマス
-     錬金
-     労働者
-     カプラス
-     なでこ
-     
-     ・BGM
-     3章
-     絶望
-     アンガ
-     バルロナ
-     ')
-     
+      
 client.run(token)
