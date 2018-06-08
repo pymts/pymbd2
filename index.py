@@ -21,7 +21,7 @@ roudousya = os.environ['roudousya']
 kapurasu = os.environ['kapurasu']
 
 
-3syou = os.environ['3syou']
+karate = os.environ['karate']
 
 
 zetubou = os.environ['zetubou']
@@ -106,8 +106,7 @@ barurona = os.environ['barurona']
 
   elif message.content.startswith('3Í'):
         
-   await client.send_message(message.channel, 3syou)
-
+   await client.send_message(message.channel, karate)
 
   elif message.content.startswith('â–]'):
         
