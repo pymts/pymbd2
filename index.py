@@ -29,7 +29,7 @@ async def on_message(message):
       await client.send_file(message.channel, './aボーナス.png')
 
    elif message.content == ('D'):
-      await client.send_find(message.channel, './dボーナス.png')
+      await client.send_file(message.channel, './dボーナス.png')
 
    elif message.content == ('名声'):
       await client.send_file(message.channel, 'a名声.png')
