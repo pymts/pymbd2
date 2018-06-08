@@ -24,4 +24,4 @@ async def on_message(message):
         await asyncio.sleep(5)
         await client.send_message(message.channel, 'Done sleeping')
 
-client.run('NDUzNzQ5Mjg5NzY0NzgyMDkw.DfuQbg.cqNwfR8pxY1k1RV3yKj6dMlfdy0')
+client.run(process.env.BOT_TOKEN)
