@@ -64,5 +64,8 @@ async def on_message(message):
 
    elif message.content == ('ｷﾞｭｲｲ～ﾝ♪ ｽﾞﾀﾞﾀﾞﾀﾞ ｽﾞﾀﾞﾀﾞﾀﾞ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪'):
       await client.send_message(message.channel, barurona)
+
+   elif message.content == ('砂漠コマンド'):
+      await client.send_message(message.channel, 'ボス　錬金　労働者　カプラス　カーマス　バレンシア　A　D　名声　なでこ')
       
 client.run(token)
