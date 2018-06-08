@@ -22,68 +22,68 @@ async def on_ready():
   
 @client.event
 async def on_message(message):
-   if message.content.startswith('ƒ{ƒX'):
-      await client.send_find(message.channel, './wb.png',message='Œ©‚Æ‚¯‚æAŒ©‚Æ‚¯‚æ`')
+   if message.content.startswith('ãƒœã‚¹'):
+      await client.send_find(message.channel, './wb.png',message='è¦‹ã¨ã‘ã‚ˆã€è¦‹ã¨ã‘ã‚ˆï½')
 
    elif message.content.startswith('A'):
-      await client.send_find(message.channel, './aƒ{[ƒiƒX.png')
+      await client.send_find(message.channel, './aãƒœãƒ¼ãƒŠã‚¹.png')
 
    elif message.content.startswith('D'):
-      await client.send_find(message.channel, './dƒ{[ƒiƒX.png')
+      await client.send_find(message.channel, './dãƒœãƒ¼ãƒŠã‚¹.png')
 
-  elif message.content.startswith('–¼º'):
-      await client.send_find(message.channel, 'a–¼º.png')
-      await client.send_find(message.channel, 'd–¼º.png')
+  elif message.content.startswith('åå£°'):
+      await client.send_find(message.channel, 'aåå£°.png')
+      await client.send_find(message.channel, 'dåå£°.png')
 
-  elif message.content.startswith('ƒoƒŒƒ“ƒVƒA'):
-      await client.send_find(message.channel, './ƒoƒŒƒ“ƒVƒA.png')
+  elif message.content.startswith('ãƒãƒ¬ãƒ³ã‚·ã‚¢'):
+      await client.send_find(message.channel, './ãƒãƒ¬ãƒ³ã‚·ã‚¢.png')
 
-  elif message.content.startswith('ƒJ[ƒ}ƒX'):
-      await client.send_find(message.channel, './ƒJ[ƒ}ƒX.png')
+  elif message.content.startswith('ã‚«ãƒ¼ãƒã‚¹'):
+      await client.send_find(message.channel, './ã‚«ãƒ¼ãƒã‚¹.png')
 
-  elif message.content.startswith('˜B‹à'):
+  elif message.content.startswith('éŒ¬é‡‘'):
       await client.send_find(message.channel, renkinn)
 
-  elif message.content.startswith('˜J“­Ò'):
+  elif message.content.startswith('åŠ´åƒè€…'):
       await client.send_find(message.channel, roudousya)
 
-  elif message.content.startswith('ƒJƒvƒ‰ƒX'):
+  elif message.content.startswith('ã‚«ãƒ—ãƒ©ã‚¹'):
       await client.send_find(message.channel, kapurasu)
 
-  elif message.content.startswith('‚È‚Å‚±'):
-      await client.send_find(message.channel, '.vƒAƒh.png')
+  elif message.content.startswith('ãªã§ã“'):
+      await client.send_find(message.channel, '.vã‚¢ãƒ‰.png')
 
-  elif message.content.startswith('3Í'):
+  elif message.content.startswith('3ç« '):
       await client.send_message(message.channel, karate)
 
-  elif message.content.startswith('â–]'):
+  elif message.content.startswith('çµ¶æœ›'):
      await client.send_message(message.channel, zetubou)
 
-  elif message.content.startswith('ƒMƒ…ƒ‹ƒ‹ƒ‹ƒ‹ƒ‹ ƒ_ƒ“ƒ_ƒ“ƒb«ƒ^ƒbƒ^ƒbƒ^ ƒ_ƒ_ƒ“ª~4 ƒ`ƒƒƒ‰ƒ‰ƒ‰ƒ‰ƒ‰~¨ƒ‰~ªƒ‰~«ƒ‰~¨'):
+  elif message.content.startswith('ã‚®ãƒ¥ãƒ«ãƒ«ãƒ«ãƒ«ãƒ« ãƒ€ãƒ³ãƒ€ãƒ³ãƒƒâ†“ã‚¿ãƒƒã‚¿ãƒƒã‚¿ ãƒ€ãƒ€ãƒ³â†‘Ã—4 ãƒãƒ£ãƒ©ãƒ©ãƒ©ãƒ©ãƒ©~â†’ãƒ©~â†‘ãƒ©~â†“ãƒ©~â†’'):
       await client.send_message(message.channel, anga)
 
-  elif message.content.startswith('·Ş­²²`İô ½ŞÀŞÀŞÀŞ ½ŞÀŞÀŞÀŞ ÃŞÃŞİÃŞİÃŞÃŞİô ÃŞÃŞİÃŞİÃŞÃŞİô'):
+  elif message.content.startswith('ï½·ï¾ï½­ï½²ï½²ï½ï¾â™ª ï½½ï¾ï¾€ï¾ï¾€ï¾ï¾€ï¾ ï½½ï¾ï¾€ï¾ï¾€ï¾ï¾€ï¾ ï¾ƒï¾ï¾ƒï¾ï¾ï¾ƒï¾ï¾ï¾ƒï¾ï¾ƒï¾ï¾â™ª ï¾ƒï¾ï¾ƒï¾ï¾ï¾ƒï¾ï¾ï¾ƒï¾ï¾ƒï¾ï¾â™ª'):
       await client.send_message(message.channel, barurona)
 
-  elif message.content.startswith('–ìbƒRƒ}ƒ“ƒh'):
+  elif message.content.startswith('é‡ç£ã‚³ãƒãƒ³ãƒ‰'):
      await client.send_message(message.channel, '
-     E»”™
-     ƒ{ƒX
+     ãƒ»ç ‚æ¼ 
+     ãƒœã‚¹
      a
      d
-     –¼º
-     ƒoƒŒƒ“ƒVƒA
-     ƒJ[ƒ}ƒX
-     ˜B‹à
-     ˜J“­Ò
-     ƒJƒvƒ‰ƒX
-     ‚È‚Å‚±
+     åå£°
+     ãƒãƒ¬ãƒ³ã‚·ã‚¢
+     ã‚«ãƒ¼ãƒã‚¹
+     éŒ¬é‡‘
+     åŠ´åƒè€…
+     ã‚«ãƒ—ãƒ©ã‚¹
+     ãªã§ã“
      
-     EBGM
-     3Í
-     â–]
-     ƒAƒ“ƒK
-     ƒoƒ‹ƒƒi
+     ãƒ»BGM
+     3ç« 
+     çµ¶æœ›
+     ã‚¢ãƒ³ã‚¬
+     ãƒãƒ«ãƒ­ãƒŠ
      ')
      
 client.run(token)
