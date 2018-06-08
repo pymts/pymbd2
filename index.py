@@ -31,41 +31,41 @@ async def on_message(message):
    elif message.content.startswith('D'):
       await client.send_find(message.channel, './dボーナス.png')
 
-  elif message.content.startswith('名声'):
+   elif message.content.startswith('名声'):
       await client.send_find(message.channel, 'a名声.png')
       await client.send_find(message.channel, 'd名声.png')
 
-  elif message.content.startswith('バレンシア'):
+   elif message.content.startswith('バレンシア'):
       await client.send_find(message.channel, './バレンシア.png')
 
-  elif message.content.startswith('カーマス'):
+   elif message.content.startswith('カーマス'):
       await client.send_find(message.channel, './カーマス.png')
 
-  elif message.content.startswith('錬金'):
+   elif message.content.startswith('錬金'):
       await client.send_find(message.channel, renkinn)
 
-  elif message.content.startswith('労働者'):
+   elif message.content.startswith('労働者'):
       await client.send_find(message.channel, roudousya)
 
-  elif message.content.startswith('カプラス'):
+   elif message.content.startswith('カプラス'):
       await client.send_find(message.channel, kapurasu)
 
-  elif message.content.startswith('なでこ'):
+   elif message.content.startswith('なでこ'):
       await client.send_find(message.channel, '.vアド.png')
 
-  elif message.content.startswith('3章'):
+   elif message.content.startswith('3章'):
       await client.send_message(message.channel, karate)
 
-  elif message.content.startswith('絶望'):
+   elif message.content.startswith('絶望'):
      await client.send_message(message.channel, zetubou)
 
-  elif message.content.startswith('ギュルルルルル ダンダンッ↓タッタッタ ダダン↑×4 チャラララララ~→ラ~↑ラ~↓ラ~→'):
+   elif message.content.startswith('ギュルルルルル ダンダンッ↓タッタッタ ダダン↑×4 チャラララララ~→ラ~↑ラ~↓ラ~→'):
       await client.send_message(message.channel, anga)
 
-  elif message.content.startswith('ｷﾞｭｲｲ～ﾝ♪ ｽﾞﾀﾞﾀﾞﾀﾞ ｽﾞﾀﾞﾀﾞﾀﾞ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪'):
+   elif message.content.startswith('ｷﾞｭｲｲ～ﾝ♪ ｽﾞﾀﾞﾀﾞﾀﾞ ｽﾞﾀﾞﾀﾞﾀﾞ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪'):
       await client.send_message(message.channel, barurona)
 
-  elif message.content.startswith('野獣コマンド'):
+   elif message.content.startswith('野獣コマンド'):
      await client.send_message(message.channel, '
      ・砂漠
      ボス
