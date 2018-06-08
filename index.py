@@ -2,7 +2,7 @@ import discord
 import asyncio
 
 client = discord.Client()
-token = process.env.BOT_TOKEN
+token = os.environ['BOT_TOKEN']
 
 @client.event
 async def on_ready():
