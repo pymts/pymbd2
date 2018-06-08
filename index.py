@@ -42,16 +42,16 @@ async def on_message(message):
       await client.send_file(message.channel, './カーマス.png')
 
    elif message.content == ('錬金'):
-      await client.send_file(message.channel, renkinn)
+      await client.send_message(message.channel, renkinn)
 
    elif message.content == ('労働者'):
-      await client.send_file(message.channel, roudousya)
+      await client.send_message(message.channel, roudousya)
 
    elif message.content == ('カプラス'):
-      await client.send_file(message.channel, kapurasu)
+      await client.send_message(message.channel, kapurasu)
 
    elif message.content == ('なでこ'):
-      await client.send_file(message.channel, '.vアド.png')
+      await client.send_file(message.channel, 'vアド.png')
 
    elif message.content == ('3章'):
       await client.send_message(message.channel, karate)
