@@ -12,6 +12,7 @@ karate = os.environ['karate']
 zetubou = os.environ['zetubou']
 anga = os.environ['anga']
 barurona = os.environ['barurona']
+si-to = os.environ['si-to']
 
 @client.event
 async def on_ready():
@@ -52,6 +53,9 @@ async def on_message(message):
 
    elif message.content == ('なでこ'):
       await client.send_file(message.channel, 'vアド.png')
+      
+   elif message.content == ('シート'):
+      await client.send_message(message.channel, si-to)
 
    elif message.content == ('3章'):
       await client.send_message(message.channel, karate)
