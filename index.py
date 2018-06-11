@@ -12,7 +12,7 @@ karate = os.environ['karate']
 zetubou = os.environ['zetubou']
 anga = os.environ['anga']
 barurona = os.environ['barurona']
-si-to = os.environ['si-to']
+sito = os.environ['sito']
 
 @client.event
 async def on_ready():
@@ -55,7 +55,7 @@ async def on_message(message):
       await client.send_file(message.channel, 'vアド.png')
       
    elif message.content == ('シート'):
-      await client.send_message(message.channel, si-to)
+      await client.send_message(message.channel, sito)
 
    elif message.content == ('3章'):
       await client.send_message(message.channel, karate)
@@ -70,6 +70,6 @@ async def on_message(message):
       await client.send_message(message.channel, barurona)
 
    elif message.content == ('砂漠コマンド'):
-      await client.send_message(message.channel, 'ボス　錬金　労働者　カプラス　カーマス　バレンシア　A　D　名声　なでこ')
+      await client.send_message(message.channel, 'ボス　錬金　労働者　カプラス　カーマス　バレンシア　A　D　名声　なでこ　シート')
       
 client.run(token)
