@@ -13,6 +13,7 @@ zetubou = os.environ['zetubou']
 anga = os.environ['anga']
 barurona = os.environ['barurona']
 sito = os.environ['sito']
+yju = os.environ['yju']
 
 @client.event
 async def on_ready():
@@ -52,10 +53,14 @@ async def on_message(message):
       await client.send_message(message.channel, kapurasu)
 
    elif message.content == ('なでこ'):
-      await client.send_file(message.channel, 'vアド.png')
+      await client.send_file(message.channel, 'vアド.png',content='いくでいくで～')
+      await client.send_message(message.channel, 'ｺﾄｯ...')
       
    elif message.content == ('シート'):
       await client.send_message(message.channel, sito)
+      
+   elif message.content == ('強化'):
+      await client.send_file(message.channel, './強化')
 
    elif message.content == ('3章'):
       await client.send_message(message.channel, karate)
@@ -70,6 +75,6 @@ async def on_message(message):
       await client.send_message(message.channel, barurona)
 
    elif message.content == ('砂漠コマンド'):
-      await client.send_message(message.channel, 'ボス　錬金　労働者　カプラス　カーマス　バレンシア　A　D　名声　なでこ　シート')
+      await client.send_message(message.channel, 'ボス　錬金　労働者　カプラス　カーマス　バレンシア　A　D　名声　なでこ　シート　強化')
       
 client.run(token)
