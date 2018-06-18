@@ -60,7 +60,7 @@ async def on_message(message):
       await client.send_message(message.channel, sito)
       
    elif message.content == ('強化'):
-      await client.send_file(message.channel, './強化')
+      await client.send_file(message.channel, './強化.png')
 
    elif message.content == ('3章'):
       await client.send_message(message.channel, karate)
