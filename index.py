@@ -25,9 +25,9 @@ async def on_ready():
 @client.event
 async def on_message(message):
    if message.content == 'ボス':
-      await client.send_file(message.channel, './wb.png',content='見とけよ、見とけよ～')
+      await client.send_file(message.channel, './wb2.png',content='見とけよ、見とけよ～')
 
-   elif message.content == ('A'):
+   elif message.content == ('A') or message.content == ('a') or message.content == ('A') or message.content == ('あ'):
       await client.send_file(message.channel, './aボーナス.png')
 
    elif message.content == ('D'):
