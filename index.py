@@ -25,12 +25,12 @@ async def on_ready():
 @client.event
 async def on_message(message):
    if message.content == 'ボス':
-      await client.send_file(message.channel, './wb2.png',content='見とけよ、見とけよ～')
+      await client.send_file(message.channel, './wb3.png',content='見とけよ、見とけよ～')
 
    elif message.content == ('A') or message.content == ('a') or message.content == ('A') or message.content == ('あ'):
       await client.send_file(message.channel, './aボーナス.png')
 
-   elif message.content == ('D'):
+   elif message.content == ('D') or message.content == ('d') or message.content == ('D') or message.content == ('ｄ'):
       await client.send_file(message.channel, './dボーナス.png')
 
    elif message.content == ('名声'):
@@ -43,7 +43,7 @@ async def on_message(message):
    elif message.content == ('カーマス'):
       await client.send_file(message.channel, './カーマス.png')
 
-   elif message.content == ('錬金'):
+   elif message.content == ('錬金') or message.content == ('エリクサー'):
       await client.send_message(message.channel, renkinn)
 
    elif message.content == ('労働者'):
@@ -59,7 +59,7 @@ async def on_message(message):
    elif message.content == ('シート'):
       await client.send_message(message.channel, sito)
       
-   elif message.content == ('強化'):
+   elif message.content == ('強化') or message.content == ('スタック'):
       await client.send_file(message.channel, './強化.png')
 
    elif message.content == ('3章'):
@@ -74,7 +74,7 @@ async def on_message(message):
    elif message.content == ('ｷﾞｭｲｲ～ﾝ♪ ｽﾞﾀﾞﾀﾞﾀﾞ ｽﾞﾀﾞﾀﾞﾀﾞ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪ ﾃﾞﾃﾞﾝﾃﾞﾝﾃﾞﾃﾞﾝ♪'):
       await client.send_message(message.channel, barurona)
 
-   elif message.content == ('砂漠コマンド'):
+   elif message.content == ('砂漠') or message.content == ('コマンド') or message.content == ('help'):
       await client.send_message(message.channel, 'ボス　錬金　労働者　カプラス　カーマス　バレンシア　A　D　名声　なでこ　シート　強化')
       
 client.run(token)
