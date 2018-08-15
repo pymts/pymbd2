@@ -27,7 +27,7 @@ async def on_message(message):
    if message.content == 'ボス':
       await client.send_file(message.channel, './wb3.png',content='見とけよ、見とけよ～')
 
-   elif message.content == ('A') or message.content == ('a') or message.content == ('A') or message.content == ('あ'):
+   elif message.content == ('A') or message.content == ('a') or message.content == ('A'):
       await client.send_file(message.channel, './aボーナス.png')
 
    elif message.content == ('D') or message.content == ('d') or message.content == ('D') or message.content == ('ｄ'):
@@ -40,7 +40,7 @@ async def on_message(message):
    elif message.content == ('バレンシア'):
       await client.send_file(message.channel, './バレンシア.png')
 
-   elif message.content == ('カーマス'):
+   elif message.content == ('カーマス') or message.content == ('ドリガン'):
       await client.send_file(message.channel, './カーマス.png')
 
    elif message.content == ('錬金') or message.content == ('エリクサー'):
