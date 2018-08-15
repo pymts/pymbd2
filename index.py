@@ -23,6 +23,7 @@ async def on_ready():
   print('------')
   
 @client.event
+@asyncio.coroutine
 async def on_message(message):
    if message.content == 'ボス':
       await client.send_file(message.channel, './wb3.png',content='見とけよ、見とけよ～')
